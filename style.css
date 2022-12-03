@@ -10,6 +10,7 @@
 body {
   margin: 0;
   background-color: hsl(0deg 3% 71% / 10%);
+ 
 }
 
 .Header {
@@ -19,8 +20,10 @@ body {
   height: 58px;
   align-items: center;
   background-color: #ffff;
-  padding-top: 20px;
+  padding-top: 70px;
   padding-left: 18px;
+  padding-right: 30px;
+  padding-bottom: 18px;
 }
 
 .mylogo {
@@ -39,34 +42,44 @@ body {
   font-family: 'Poppines', sans-serif;
   letter-spacing: 0;
 }
-
-.main-section {
+.Workssection1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 8px;
   background-image: url('./image/Mobile-Main_3.png');
-  background-size: cover;
-  background-color: #ffff;
   background-repeat: no-repeat;
-  position: absolute;
-  height: 650px;
-  top: 0;
-  left: -34px;
+  background-size: cover;
+  height: 577px;
 }
 
-.container {
-  height: 718px;
+.about {
+  color: #344563;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .mainiam {
-  margin-top: 52px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 52px;
   align-items: center;
   color: #172b4d;
-  margin-bottom: -20px;
 }
-
+.introdaction {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 42px;
+  font-family: 'Poppins';
+  font-style: normal;
+  line-height: 52px;
+  margin-top: 114px;
+  margin-bottom: 0; 
+}
 .main-header {
   margin-top: 104px;
   font-family: 'Poppins', sans-serif;
@@ -112,19 +125,17 @@ body {
 }
 
 /* social media icons----------------------------------------------------------------------- */
-.Workssection1 {
-  border-radius: 8px;
-}
+
 
 .cardBack01 {
-  background-image: url('./image/Mobile-Main_3.png');
+  
   background-repeat: no-repeat;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 16px;
-  width: 375px;
+  
   height: 568px;
   border: 0 solid #dfe1e6;
   border-bottom-left-radius: 50px;
@@ -219,7 +230,9 @@ body {
   list-style: none;
   margin-right: 240px;
 }
-
+.letconnect {
+  margin-bottom: -28px;
+}
 .connectmywork {
   margin-top: 0;
   font-weight: 500;
@@ -229,12 +242,11 @@ body {
   font-style: normal;
   line-height: 24px;
 }
-
-/* social media icons */
 .social-icons-mywork {
   margin-right: 50px;
   margin-top: 12px;
   list-style: none;
   display: flex;
   gap: 20px;
+  
 }
