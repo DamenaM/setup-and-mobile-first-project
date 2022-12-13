@@ -24,7 +24,7 @@ To get a local copy up and running follow these simple example steps.
 - Git
 ### Setup
 1. Download the Zip file or clone the repo with:
-`git clone https://github.com/DamenaM/Portofolio.git`
+`git clone https://github.com/DamenaM/setup-and-mobile-first-project.git`
 2. To access cloned directory run:
 `cd Portofolio`
 3. Open it with the live server
