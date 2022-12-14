@@ -482,7 +482,7 @@ body {
   margin-left: 24px;
   margin-right: 24px;
   height: 50px;
-   border-radius: 8px;
+  border-radius: 8px;
 }
 
 .form-group2 {
@@ -492,7 +492,6 @@ body {
   margin-left: 24px;
   margin-right: 24px;
   height: 175px;
- 
   border-radius: 8px;
   top: 15px;
   bottom: 15px;
@@ -656,7 +655,6 @@ body {
 
 .buttonsee2 {
   margin-top: 28px;
- 
 }
 
 .texform {
@@ -664,6 +662,7 @@ body {
   border-radius: 8px;
   padding-left: 20px;
 }
+
 .comment {
   height: 176px;
   border-radius: 8px;
@@ -671,6 +670,7 @@ body {
   padding-left: 20px;
   padding-right: 49px;
 }
+
 .texform2 {
   height: 174px;
   border-radius: 8px;
@@ -783,20 +783,19 @@ body {
   justify-content: space-between;
   padding-bottom: 35px;
 }
+
 #Name {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
   margin-bottom: 10px;
   border-radius: 8px;
-
 }
+
 #email {
- 
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
   margin-bottom: 10px;
- 
   border-radius: 8px;
 }
