@@ -661,16 +661,19 @@ body {
 
 .buttonsee2 {
   margin-top: 28px;
+  padding-left: 25px;
 }
 
 .texform {
   height: 50px;
   border-radius: 8px;
+  padding-left: 20px;
 }
 
 .texform2 {
   height: 174px;
   border-radius: 8px;
+  padding-left: 20px;
 }
 
 .works2 {
@@ -777,4 +780,5 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-bottom: 35px;
 }
