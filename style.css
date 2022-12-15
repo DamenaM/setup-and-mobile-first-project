@@ -12,43 +12,71 @@ body {
   background-color: hsl(0deg 3% 71% / 10%);
 }
 
-.Header {
+.header {
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 58px;
+  padding-bottom: 58px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   height: 58px;
   align-items: center;
   background-color: #ffff;
-  padding-top: 46px;
-  padding-left: 18px;
-  padding-right: 8px;
-  padding-bottom: 40px;
+  justify-content: space-between;
 }
 
 .mylogo {
-  width: 76px;
-  height: 20px;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 20px;
   display: flex;
   align-items: center;
   text-align: center;
   color: #6070ff;
-  margin: 58px;
   margin-left: 24px;
   font-family: 'Poppines', sans-serif;
   letter-spacing: 0;
+  text-decoration: none;
 }
 
 .gridcontainer {
   display: grid;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.firstcardBack {
+  margin-bottom: 104px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  height: 596px;
+  background: #fff;
+  border: 1px solid #fff;
+  background-image: url('./image/Mobile-Main_3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardBack {
+  padding-top: 20px;
+  margin-bottom: 104px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 596px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
 }
 
 .Workssection_01 {
   display: flex;
   flex-direction: column;
+  background-color: #396df2;
   padding-left: 24px;
   padding-right: 24px;
   border-radius: 8px;
@@ -56,19 +84,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 625px;
-}
-
-.cardBack9 {
-  margin-top: 24px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  height: 876px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-top-right-radius: 67px;
 }
 
 .mainiam {
@@ -201,102 +216,7 @@ body {
   border-radius: 8px;
 }
 
-/* Card Works */
-.cardBack {
-  margin-top: 114px;
-  margin-bottom: 104px;
-  margin-left: 24px;
-  margin-right: 24px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  height: 596px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-}
-
-.cardBack01 {
-  background-image: url('./image/Mobile-Main_3.png');
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  width: 375px;
-  height: 568px;
-  border: 0 solid #dfe1e6;
-  border-bottom-left-radius: 50px;
-}
-
-.cardBack_02 {
-  margin-top: 114px;
-  margin-bottom: 104px;
-  margin-left: 24px;
-  margin-right: 24px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  height: 596px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-}
-
-.cardBack_03 {
-  margin-top: 88px;
-  margin-bottom: 104px;
-  margin-left: 24px;
-  margin-right: 24px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  height: 596px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-}
-
-.cardBack_04 {
-  margin-top: 88px;
-  margin-bottom: 104px;
-  margin-left: 24px;
-  margin-right: 24px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  height: 596px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-}
-
-.cardBack_05 {
-  margin-top: 88px;
-  margin-bottom: 104px;
-  margin-left: 24px;
-  margin-right: 24px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  height: 596px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-}
-
-.cardBack2 {
+.AboutcardBack {
   margin-top: 24px;
   box-sizing: border-box;
   display: flex;
@@ -320,7 +240,6 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 16px;
-  width: 375px;
   height: 779px;
   border: 0 solid #bbbcc0;
   background-color: #6070ff;
@@ -562,26 +481,18 @@ body {
   margin-top: 20px;
   margin-left: 24px;
   margin-right: 24px;
-  width: 330px;
   height: 50px;
-  background: #fff;
-  border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
 
 .form-group2 {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 70px;
   margin-left: 24px;
   margin-right: 24px;
-  width: 330px;
   height: 175px;
-  background: #fff;
-  border: 1px solid #cfd8dc;
   border-radius: 8px;
-  left: 16px;
-  right: 38px;
   top: 15px;
   bottom: 15px;
   font-family: 'Poppins', sans-serif;
@@ -603,8 +514,7 @@ body {
   color: #344563;
 }
 
-.sectioncontact {
-  width: 295px;
+.contact {
   height: 76px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -660,6 +570,23 @@ body {
   color: #6070ff;
 }
 
+.contactbutton {
+  margin-left: 32px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .button1 {
   margin-right: 125px;
   padding-left: 27px;
@@ -697,6 +624,26 @@ body {
   color: rgb(85, 85, 88);
 }
 
+.contactbutton:enabled {
+  background-color: #fff;
+  color: #396df2;
+}
+
+.contactbutton:hover {
+  background-color: #568cf1;
+  color: rgb(243, 243, 245);
+}
+
+.contactbutton:disabled {
+  background-color: #f0f3f8;
+  color: rgb(85, 85, 88);
+}
+
+.contactbutton:active {
+  background-color: #fff;
+  color: rgb(85, 85, 88);
+}
+
 .buttonsee {
   margin-top: 10px;
 }
@@ -713,11 +660,21 @@ body {
 .texform {
   height: 50px;
   border-radius: 8px;
+  padding-left: 20px;
+}
+
+.comment {
+  height: 176px;
+  border-radius: 8px;
+  padding-top: 45px;
+  padding-left: 20px;
+  padding-right: 49px;
 }
 
 .texform2 {
   height: 174px;
   border-radius: 8px;
+  padding-left: 20px;
 }
 
 .works2 {
@@ -818,4 +775,27 @@ body {
 
 .aboutprogram {
   margin-left: 35px;
+}
+
+.sectioncontact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 35px;
+}
+
+#Name {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+#email {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  margin-bottom: 10px;
+  border-radius: 8px;
 }
