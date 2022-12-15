@@ -94,7 +94,7 @@ body {
   color: #172b4d;
 }
 
-.introdaction {
+.introduction {
   color: #172b4d;
   font-weight: 700;
   font-size: 42px;
@@ -103,6 +103,39 @@ body {
   line-height: 52px;
   margin-top: 114px;
   margin-bottom: 0;
+}
+.mainiam h1 {
+  animation-name: leftToOnThePlace;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes leftToOnThePlace {
+  0% {
+    transform: translateX(-2000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.section_01 p {
+  animation-name: rightToOnthePlace;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes rightToOnthePlace {
+  0% {
+    transform: translateX(2000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .section_01 {
