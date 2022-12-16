@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portofolio setup and mobile first
+# Desktop version
 
 > This project  creating Github repository, branches and github flows
 > set up a new repository and test linter create two sections of the mobile website using the template 
@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 1. Download the Zip file or clone the repo with:
 `git clone https://github.com/DamenaM/setup-and-mobile-first-project.git`
 2. To access cloned directory run:
-`cd Portofolio`
+`cd setup-and-mobile-first-project`
 3. Open it with the live server
 ### Install
 To install linters and other project's dependencies run:
