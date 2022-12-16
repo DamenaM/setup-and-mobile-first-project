@@ -983,9 +983,11 @@ body {
   .section1-desc {
     display: flex;
   }
-#BackendDevid {
-  display: flex;
-}
+
+  #BackendDevid {
+    display: flex;
+  }
+
   .Programs-desclist {
     display: flex;
     gap: 10px;
