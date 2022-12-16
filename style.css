@@ -554,7 +554,6 @@ body {
 }
 
 .section2 {
-  width: 295px;
   height: 76px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -984,7 +983,9 @@ body {
   .section1-desc {
     display: flex;
   }
-
+#BackendDevid {
+  display: flex;
+}
   .Programs-desclist {
     display: flex;
     gap: 10px;
@@ -1018,6 +1019,7 @@ body {
     font-size: 15px;
     line-height: 24px;
     color: #344563;
+    margin-right: 200px;
   }
 
   .canopy-desck {
