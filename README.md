@@ -1,71 +1,125 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<!-- TABLE OF CONTENTS -->
 
-# Desktop version
+# 📗 Table of Contents
 
-> This project  creating Github repository, branches and github flows
-> set up a new repository and test linter create two sections of the mobile website using the template 
-## Built With
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-- HTML
-- CSS
-- Linters
+<!-- PROJECT DESCRIPTION -->
 
-## Live Demo (if available)
+# 📖 My-Portfolio: <a name="about-project"></a>
 
-[Live Demo Link](https://livedemo.com)
+> My-portfolio project is created using HTML and CSS. Here on the project, I prepared portfolio for both mobile and desktop users by relying on Figma Portfolio Template 1. Specifically on this project I have created the desktop version.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- BUILT WITH -->
+
+## 🛠 Built With <a name="built-with"></a>
+
+- Programming languages: 
+    HTML, CSS3
+- Tools: 
+    Git, GitHub, Linters
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+- Responsive
+- Mobile first
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Getting Started
+<!-- LIVE DEMO -->
 
-To get a local copy up and running follow these simple example steps.
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Link to deployed project.
+
+- [Live Demo Link]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-- IDE(code editor) like: Vscode, Sublime, etc.
-- Git
+
+In order to run this project you need:
+
+- Git and Code editor.
+
 ### Setup
-1. Download the Zip file or clone the repo with:
-`git clone https://github.com/DamenaM/setup-and-mobile-first-project.git`
-2. To access cloned directory run:
-`cd setup-and-mobile-first-project`
-3. Open it with the live server
-### Install
-To install linters and other project's dependencies run:
-`npm install`
-### Usage
-For tracking linter errors locally you need to follow these steps:
 
-1. For tracking linter errors in HTML files run:
-`npx hint .`
-2. For tracking linter errors in CSS or SASS files run:
-`npx stylelint "\*_/_.{css,scss}"`
+Clone this repository to your desired folder:
+
+``git clone `https://github.com/DamenaM/setup-and-mobile-first-project.git`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Author
+<!-- AUTHORS -->
 
-👤 **Author**
+## 👥 Authors <a name="authors"></a>
 
-- GitHub: [@githubhandle](https://github.com/DamenaM)
-- Twitter: [@twitterhandle](https://twitter.com/DamenaM)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/DamenaM)
+👤 MIhertab Damena
+
+- GitHub: [DamenaM](https://github.com/DamenaM)
+- Twitter: [@DamenaM](https://twitter.com/DamenaM)
+- LinkedIn: [Mihertab Damena](linkedin.com/in/DamenaM)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🤝 Contributing
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/DamenaM/Hello-Microverse/issues).
+Feel free to check the [issues page](https://github.com/DamenaM/setup-and-mobile-first-project.git).
 
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Thank You Microverse team that help me with the template of this project.
-- Thanks to everyone who will get time to check this code and suggest any issues
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 📝 License
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> If you like this project please give a ⭐️ to this repository.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> I would like to thank [Microverseinc](https://github.com/microverseinc).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
