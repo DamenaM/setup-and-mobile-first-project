@@ -10,7 +10,7 @@
 <body>
 <header class="header">
         <div class="name">
-          <a  class="mylogo" href="#">MY logo</a>
+          <a  class="mylogo" href="#">My logo</a>
         </div>
         <nav class="menu">
           <a href=""><img class="icon-menu" src="./image/logobuger.JPG" alt=""></a>
@@ -19,7 +19,8 @@
           <a class="contact-desc" href="">Contact</a>
         </nav>
 </header>
-<section class="firstcardBack">
+<section class="firstcardContain">
+   <div class="firstcardBack">
     <div class="mainiam">
         <h1 class="introdaction"> I'm Mihertab Glad to see you!</h1>
     </div>
@@ -40,14 +41,15 @@
                 <li><a href="#"><img src="./image/Vector5.png" alt=""></a></li>
             </ul>
     </div>
+</div> 
 </section>
 <section class="gridcontainer">
     <section class="cardBack" >
-        <div>
-                <div class="card_02">  <a  href="#"><img src="./image/Snapshoot Portfolio1 (1).png" alt=""></a></div>
-                <div class="card_02_desc">  <a  href="#"><img  src="./image/descktop/Snapshoot Portfolio.svg" alt=""></a></div>
-            </div>
-            <div>
+        
+     <div class="card_02">  <a  href="#"><img src="./image/Snapshoot Portfolio1 (1).png" alt=""></a></div>
+     <div class="card_02_desc">  <a  href="#"><img class="card_02_image" src="./image/descktop/Snapshoot Portfolio.svg" alt=""></a></div>
+            
+            <div class="projectdesc02">
             <div  class="tonic_02"><h3  >Tonic</h3>
                 </div>
                 <div class="work_main">
@@ -77,13 +79,12 @@
             </div>
     </section>
     <section class="cardBack" id="cardbackid03">
-            <div>
-                    <div>
-                        <a class="card_03" href="#"><img src="./image/Snapshoot Portfolio1 (2).png" alt=""></a>
-                        <a class="card_03_desck" href="#"><img src="./image/descktop/Snapshoot Portfolio02.png" alt=""></a>
-                    </div>
-                </div>
-                <div>
+        <div class="card_03_desck">
+            <a  href="#"><img class="card_03_image" src="./image/descktop/Snapshoot Portfolio02.png" alt=""></a>
+        </div>
+                <a class="card_03" href="#"><img src="./image/Snapshoot Portfolio1 (2).png" alt=""></a>
+                
+                <div class="projectdesc03">
                     <div class="Multipost">
                         <h3 class="Multi-pos_3"  >Multi-Post Stories</h3>
                     </div>
@@ -118,17 +119,17 @@
     </section>
     <section class="cardBack">
             <div>
-                <div>
-                    <a class="card_04" href="#"><img src="./image/Snapshoot Portfolio1 (3).png" alt=""></a>
-                    <a class="card_04-desck" href="#"><img src="./image/descktop/Snapshoot Portfolio.png" alt=""></a>
+                <div class="card_04-desck">
+                   
+                    <a  href="#"><img class="card_04_image" src="./image/descktop/Snapshoot Portfolio.png" alt=""></a>
                 </div>
+                <a class="card_04" href="#"><img src="./image/Snapshoot Portfolio1 (3).png" alt=""></a>
             </div>
-            <div>
+            <div class="projectdesc04">
                 <div class="tonic_4">
                     <h3  class="tonic" >Tonic</h3>
                 </div>
                 <h3  class="Facebook360" >Facebook 360</h3>
-                
                 <div class="work_main">
                         <ul class="works">
                             <li class="facebook"> FACEBOOK</li>
@@ -165,10 +166,10 @@
                     <a href="#"><img src="./image/Snapshoot Portfolio1 (4).png" alt=""></a>
             </div>
             <div class="card_05_desck">
-                <a href="#"><img src="./image/descktop/Snapshoot Portfolio3.png" alt=""></a>
+                <a href="#"><img class="card_05_image"  src="./image/descktop/Snapshoot Portfolio3.png" alt=""></a>
             </div>
         </div>
-        <div>
+        <div class="projectdesc05">
             <div  class="multipost_05">
                 <h3 class="Multi-Post_05" >Multi-Post Stories </h3>
                 <h3 class="Multi-Post_05-desck" >Uber Navigation</h3>
@@ -183,7 +184,6 @@
                     <li class="BackendDev">BackendDev</li>
                     <li class="num"> 2015 </li>
                 </ul>
-            
             </div>
             <div class="sectiondaily">
                 <p class="section1"> A daily selection of privately personalized reads; no accounts or sign-ups required </p>
@@ -241,9 +241,9 @@
                 <li  class="Programs" href="#"><img src="./image/Frame 11.png" alt=""></li>
             </ul>
             <ul class="Programs-desclist">
+                <li  href="#"><img  class="Programs-desck" src="./image/descktop/Frame 9 (2).png" alt=""></li>
                 <li   href="#"><img class="Programs-desck" src="./image/descktop/Frame 10 (1).png" alt=""></li>
                 <li  href="#"><img  class="Programs-desck" src="./image/descktop/Frame 11 (1).png" alt=""></li>
-                <li  href="#"><img  class="Programs-desck" src="./image/descktop/Frame 9 (2).png" alt=""></li>
             </ul>
             <li  class="Programs-lang" href="#"><img src="./image/Frame 01.png" alt=""></li>
             <li  class="Programs-lang" href="#"><img src="./image/Frame 02.png" alt=""></li>
@@ -256,22 +256,19 @@
         
         <div class="sectioncontact">
             <h2  class="contactme" >Contact me </h2>
-        <p class="contact"> If you have an application you are interested 
+            <p class="contact"> If you have an application you are interested 
             in developing, a feature that you need built or a project that 
             needs coding. I’d love to help with it  </p>
         </div>
-            <div class="form-group">
-                 <input class="texform" type="text"   id="Name"    classe="form-control" placeholder="Enter Your Name" minlength="4" maxlength="30" required />
-            </div>
-            <div class="form-group">          
-                <input class="texform"  type="email"  id="email"  name="email"   placeholder="Enter Your Email"  required  />
-            </div>
-            <div class="form-group2">
-                <input class="texform2"  name="comment"  id="comment"   cols="50"   rows="6"  placeholder="Write your message here..."  required  />
-            </div>
-            <div class="buttonsee2" id="contactbuttonid">
-                <button class="contactbutton"> Get It Touch </button>
-            </div>
+        <fieldset class="filedset">
+            <input class="texform" type="text"  id="Name"   classe="form-control" placeholder="Alexandra Loremipsum" minlength="4" maxlength="30" required />
+            <input class="texform"  type="email"  id="email"  name="email"   placeholder="alexandra@gmail.com"  required  />
+           <input class="texform2" name="comment" id="comment" cols="50" rows="6" placeholder="Write your message here..." required >
+        </fieldset>
+            
+         <div class="buttonsee2" id="contactbuttonid">
+            <button class="contactbutton"> Get It Touch </button>
+        </div>
            
     </form>
     

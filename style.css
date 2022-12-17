@@ -43,6 +43,7 @@ body {
   display: grid;
   margin-left: 24px;
   margin-right: 24px;
+  gap: 100px;
 }
 
 .firstcardBack {
@@ -231,7 +232,7 @@ body {
 
 .cardcontact {
   margin-top: 22px;
-  background-size: 230px;
+  background-size: contain;
   background-position: right;
   background-image: url('./image/contact\ form\ 05.png');
   background-repeat: no-repeat;
@@ -297,7 +298,7 @@ body {
 }
 
 .work_main_3 {
-  margin-top: 65px;
+  margin-top: 77px;
   margin-bottom: 18px;
   margin-right: 75px;
 }
@@ -316,6 +317,7 @@ body {
 .works {
   display: flex;
   gap: 20px;
+  justify-content: space-around;
 }
 
 .Program-skilhtml {
@@ -399,6 +401,7 @@ body {
 }
 
 .tonic {
+  padding-left: 10px;
   margin-top: 12px;
   margin-bottom: 20px;
   width: 295px;
@@ -494,7 +497,6 @@ body {
 
 .contactme {
   margin-top: 103px;
-  width: 327px;
   height: 56px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -504,7 +506,6 @@ body {
   display: flex;
   align-items: center;
   color: #f5f7fa;
-  padding-right: 80px;
 }
 
 .form-group {
@@ -542,7 +543,6 @@ body {
 }
 
 .section1 {
-  width: 295px;
   height: 76px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -571,6 +571,8 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #f6f8fa;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 .canopy {
@@ -620,7 +622,7 @@ body {
 }
 
 .contactbutton {
-  margin-left: 65px;
+  margin-left: 22px;
   padding-left: 27px;
   padding-right: 27px;
   padding-top: 10px;
@@ -706,14 +708,53 @@ body {
   margin-top: 28px;
 }
 
-.texform {
-  height: 50px;
+.texform::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-radius: 8px;
 }
 
+.texform {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-right: 35px;
+  border: none;
+}
+
+.texform2::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
+
 .texform2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  border: none;
   height: 174px;
   border-radius: 8px;
+  padding-left: 15px;
+  padding-top: 20px;
 }
 
 .works2 {
@@ -822,10 +863,17 @@ body {
   gap: 20px;
 }
 
+.filedset {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: none;
+}
+
 .sectioncontact {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .Portfolio-desc,
@@ -856,7 +904,7 @@ body {
   display: none;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .icon-menu,
   .canopy,
   .section1,
@@ -864,6 +912,23 @@ body {
   .BackendDev,
   .tonic {
     display: none;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  .Portfolio-desc,
+  .About-desc,
+  .contact-desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    text-decoration: none;
+    color: #344563;
   }
 
   .Portfolio-desc,
@@ -886,8 +951,24 @@ body {
     display: none;
   }
 
+  .section2 {
+    margin-top: 20px;
+  }
+
+  .work_main_3 {
+    margin-top: 45px;
+  }
+
+  .introdaction {
+    width: 82%;
+  }
+
   #abouthello {
     display: flex;
+  }
+
+  .tonic_02 {
+    margin-bottom: 30px;
   }
 
   .descktopcard {
@@ -895,38 +976,66 @@ body {
   }
 
   .form-group {
-    padding-left: 320px;
-    padding-right: 320px;
+    margin-left: 497px;
+    margin-right: 496px;
     background: none;
     border: none;
   }
 
+  .contactbutton {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
   .form-group2 {
-    padding-left: 320px;
-    padding-right: 320px;
+    margin-left: 497px;
+    margin-right: 496px;
     background: none;
     border: none;
   }
 
   .program1 {
+    margin-top: 45px;
     display: flex;
     padding-left: 0;
-    margin-top: 40px;
+  }
+
+  .section1 {
+    padding-left: 0;
+    width: auto;
+  }
+
+  .sectioncontact {
+    max-width: 447px;
+    align-items: center;
+  }
+
+  .button1 {
+    margin-left: 0;
   }
 
   .cardBack {
+    margin: 0 auto;
     flex-direction: row;
-    width: 100%;
+    width: 80%;
     height: auto;
     gap: 20px;
     align-items: flex-start;
+    margin-bottom: 142px;
+  }
+
+  .cardcontact1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   #cardbackid03 {
     padding-left: 20px;
     display: flex;
     flex-direction: row-reverse;
-    width: 100%;
     height: auto;
     justify-content: flex-end;
   }
@@ -935,14 +1044,27 @@ body {
     padding-left: 20px;
     display: flex;
     flex-direction: row-reverse;
-    width: 100%;
     height: auto;
     justify-content: flex-end;
+  }
+
+  .projectdesc02 {
+    width: 50%;
+  }
+
+  .projectdesc03 {
+    width: 50%;
+  }
+
+  .projectdesc04 {
+    width: 50%;
   }
 
   #aboutcardid {
     display: flex;
     flex-direction: row;
+    padding-left: 142px;
+    padding-right: 142px;
   }
 
   .card_02_desc,
@@ -954,18 +1076,37 @@ body {
 
   .card_02_desc {
     padding-left: 24px;
+    width: 50%;
     padding-top: 24px;
     padding-bottom: 24px;
+  }
+
+  .card_02_image {
+    width: 100%;
+  }
+
+  .card_03_image {
+    width: 100%;
+  }
+
+  .card_04_image {
+    width: 100%;
+  }
+
+  .card_05_image {
+    width: 100%;
   }
 
   .card_04-desck {
-    padding-left: 24px;
-    padding-top: 24px;
+    padding-left: 10px;
     padding-bottom: 24px;
   }
 
+  .projectdesc05 {
+    width: 50%;
+  }
+
   .card_03_desck {
-    padding-left: 24px;
     padding-top: 24px;
     padding-bottom: 24px;
   }
@@ -978,7 +1119,6 @@ body {
 
   .Programs-desck,
   .facebook,
-  .Ruby,
   .section2,
   .section1-desc {
     display: flex;
@@ -998,15 +1138,8 @@ body {
   }
 
   .contact {
-    padding-left: 320px;
-    padding-right: 320px;
+    margin-top: 12px;
     text-align: center;
-  }
-
-  .contactme {
-    padding-left: 400px;
-    padding-right: 320px;
-    width: auto;
   }
 
   .Multi-pos_3 {
@@ -1021,7 +1154,6 @@ body {
     font-size: 15px;
     line-height: 24px;
     color: #344563;
-    margin-right: 200px;
   }
 
   .canopy-desck {
@@ -1045,6 +1177,10 @@ body {
     font-size: 13px;
     line-height: 16px;
     color: #7a869a;
+  }
+
+  .buttonsee2 {
+    margin-top: 12px;
   }
 
   .button2 {
@@ -1110,43 +1246,26 @@ body {
     list-style: none;
   }
 
-  .skil {
-    margin-top: 27px;
-  }
-
   .mainiam {
-    padding-left: 260px;
     margin-top: 100px;
-    margin-right: 260px;
-    margin-bottom: 90px;
-    height: 122px;
-    width: 619px;
-  }
-
-  .section_01 {
-    margin-right: 260px;
-  }
-
-  .about {
-    padding-left: 260px;
-  }
-
-  .social-section_01 {
-    padding-left: 260px;
-  }
-
-  .connectmywork_01 {
-    padding-left: 260px;
+    width: 69%;
   }
 
   #contactbuttonid {
-    margin-left: 420px;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .cardcontact {
     background-size: contain;
-    background-position: center;
+    background-position: 100% 15%;
     background-image: url(./image/descktop/contact\ form\ background\ shapes.svg);
+  }
+
+  .filedset {
+    display: flex;
+    flex-direction: column;
+    max-width: 447px;
   }
 
   .menu {
@@ -1155,10 +1274,12 @@ body {
   }
 
   .firstcardBack {
-    background-size: contain;
+    margin: 0 auto;
+    width: 68%;
+    align-items: flex-start;
     background-position: center;
+    background-size: contain;
     background-image: url(./image/descktop/HeaderDesktop.png);
     background-repeat: no-repeat;
-    align-items: flex-start;
   }
 }
