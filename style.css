@@ -262,7 +262,7 @@ body {
   margin-top: 22px;
   background-size: contain;
   background-position: right;
-  background-image: url('/image/contact\ form\ 05.png');
+  background-image: url('./image/contact\ form\ 05.png');
   background-repeat: no-repeat;
   box-sizing: border-box;
   display: flex;

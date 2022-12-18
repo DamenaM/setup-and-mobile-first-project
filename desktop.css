@@ -363,7 +363,7 @@
   .cardcontact {
     background-size: contain;
     background-position: 100% 15%;
-    background-image: url(/image/descktop/contact\ form\ background\ shapes.svg);
+    background-image: url('./image/descktop/contact\ form\ background\ shapes.svg');
   }
 
   .filedset {
