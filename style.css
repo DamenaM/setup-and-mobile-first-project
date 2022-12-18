@@ -68,7 +68,7 @@ body {
   height: 596px;
   background: #fff;
   border: 1px solid #fff;
-  background-image: url('/image/Mobile-Main_3.png');
+  background-image: url('./image/Mobile-Main_3.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
