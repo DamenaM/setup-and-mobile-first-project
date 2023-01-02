@@ -1,4 +1,5 @@
 @media screen and (min-width: 768px) {
+  .menu-back,
   .icon-menu,
   .canopy,
   .section1,
@@ -20,6 +21,9 @@
     background-size: contain;
     background-image: url('./image/descktop/HeaderDesktop.png');
     background-repeat: no-repeat;
+    position:unset;
+    filter:unset
+
   }
 
   .Portfolio-desc,
