@@ -12,6 +12,16 @@ body {
 .hide {
 display: none;
 }
+.menuback {
+position: relative;
+background-color: #6070ffdb;
+mix-blend-mode: multiply;
+height: 812px;
+width: 375px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+}
 .header {
   display: flex;
   padding-top: 13px;
@@ -38,15 +48,7 @@ display: none;
   text-decoration: none;
 }
 .menu-back {
-/* display: none; */
-position: relative;
-background-color: #6070ffdb;
-mix-blend-mode: multiply;
-height: 812px;
-width: 375px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
+display: none;
 
 }
 .close-value {

@@ -1,33 +1,19 @@
-// let clickxvalue = () =>{
-//     let xvalue = document.querySelector('#menuback');
-//     xvalue.classList.add('newmenuback','filterblur');
 
-//     let firstcardBack = document.querySelector('#firstcardBackid');
-//     firstcardBack.classList.add('filterblur')
-// };
-
-// //------------- close Menuback------------
-// let clickxvaluehum = () =>{
-//     let xvalue = document.querySelector('#menuback');
-//     xvalue.classList.add('menu-back');
-// };
 //------------------------ Adding Menu list-------------------------
 
-const ul =document.querySelector('.menu-nav ul');
-const li=document.createElement('a');
-const Profile = ocument.createElement('a');
-const portfolio = document.createElement('a');
 
+let ul =document.querySelector('.menu-nav ul');
 
+let Portofolio=document.createElement('a')
+let li=document.createElement('a');
+
+ul.append(Portofolio);
 ul.append(li);
-ul.append('profile');
-ul.append('portfolio');
 
-Profile.innerText=('Profile'); 
-Profile.classList.add('menu-content-list');
+Portofolio.innerText=('Portofolio'); 
 li.innerText=('contact'); 
-portfolio.innerText=('portfolio'); 
 
+Portofolio.classList.add('menu-content-list');
 li.classList.add('menu-content-list');
 
 
@@ -38,14 +24,22 @@ let clickclose = document.getElementById('menubackpop');
 let firstcardBack = document.getElementById('firstcardBackid');
 
 clickhum.addEventListener("click", function() {
-            firstcardBack.className = "newmenuback";  
-    
+   firstcardBack.className = "newmenuback";  
+   clickclose.className="menuback"
 });
 
+// clickclose.addEventListener("click", function() {
+//    if (clickclose.className === "menu-back") {
+//       firstcardBack.className = "firstcardBack";
+//       clickclose.className = "hide";
+//        }
+// }); 
+// --------------------------------------------------------
 clickclose.addEventListener("click", function() {
-   if (clickclose.className === "menu-back") {
-      clickclose.className = "hide";
+   if (clickclose.className === "menuback") {
       firstcardBack.className = "firstcardBack";
+      clickclose.className = "menu-back";
+       }else {
+         clickclose.className = "hide";
        }
 }); 
-// --------------------------------------------------------
