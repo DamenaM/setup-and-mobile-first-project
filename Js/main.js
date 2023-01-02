@@ -15,12 +15,19 @@
 
 const ul =document.querySelector('.menu-nav ul');
 const li=document.createElement('a');
-const Profile =document.createElement('a');
+const Profile = ocument.createElement('a');
+const portfolio = document.createElement('a');
+
 
 ul.append(li);
+ul.append('profile');
+ul.append('portfolio');
+
 Profile.innerText=('Profile'); 
 Profile.classList.add('menu-content-list');
 li.innerText=('contact'); 
+portfolio.innerText=('portfolio'); 
+
 li.classList.add('menu-content-list');
 
 
