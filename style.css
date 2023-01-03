@@ -55,10 +55,12 @@ body {
 .menu-back {
   display: none;
 }
-
+.xvalue{
+  margin-top: 30px;
+}
 .close-value {
   display: flex;
-  margin-left: 311px;
+  margin-left: 288px;
   padding-top: 35px;
 }
 

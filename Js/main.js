@@ -4,7 +4,7 @@ const firstcardBack = document.getElementById('firstcardBackid');
 const mainheader = document.getElementById('mylogo-section');
 
 clickhum.addEventListener('click', () => {
-  if (firstcardBack.className === 'newmenuback') {
+  if (firstcardBack.className === 'firstcardBack') {
     mainheader.className = 'hide';
     firstcardBack.className = 'newmenuback';
     clickclose.className = 'menuback';
