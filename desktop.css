@@ -21,9 +21,8 @@
     background-size: contain;
     background-image: url('./image/descktop/HeaderDesktop.png');
     background-repeat: no-repeat;
-    position:unset;
-    filter:unset
-
+    position: unset;
+    filter: unset;
   }
 
   .Portfolio-desc,

@@ -1,20 +1,16 @@
 
 //------------------------ Adding Menu list-------------------------
 
+// const ul =document.querySelector('.menu-nav ul');
+// const li=document.createElement('a');
+// const Profile =document.createElement('a');
 
-let ul =document.querySelector('.menu-nav ul');
-
-let Portofolio=document.createElement('a')
-let li=document.createElement('a');
-
-ul.append(Portofolio);
-ul.append(li);
-
-Portofolio.innerText=('Portofolio'); 
-li.innerText=('contact'); 
-
-Portofolio.classList.add('menu-content-list');
-li.classList.add('menu-content-list');
+// ul.append(li);
+// ul.append(Profile);
+// Profile.innerText=('Profile'); 
+// Profile.classList.add('menu-content-list');
+// li.innerText=('contact'); 
+// li.classList.add('menu-content-list');
 
 
 
@@ -22,24 +18,34 @@ li.classList.add('menu-content-list');
 let clickhum = document.getElementById('logoburger');
 let clickclose = document.getElementById('menubackpop');
 let firstcardBack = document.getElementById('firstcardBackid');
+let mainheader=document.getElementById('mylogo-section');
 
 clickhum.addEventListener("click", function() {
-   firstcardBack.className = "newmenuback";  
-   clickclose.className="menuback"
+   if (firstcardBack.className = "newmenuback"){
+      mainheader.className="hide"
+      firstcardBack.className = "newmenuback";  
+      clickclose.className = "menuback";
+   }else {
+      mainheader.className="header"
+   }
+
 });
 
 // clickclose.addEventListener("click", function() {
 //    if (clickclose.className === "menu-back") {
-//       firstcardBack.className = "firstcardBack";
 //       clickclose.className = "hide";
+//       firstcardBack.className = "firstcardBack";
 //        }
 // }); 
 // --------------------------------------------------------
 clickclose.addEventListener("click", function() {
-   if (clickclose.className === "menuback") {
+   if (clickclose.className === "menu-back") {
+      clickclose.className = "hide";
       firstcardBack.className = "firstcardBack";
-      clickclose.className = "menu-back";
+     
        }else {
+         firstcardBack.className = "firstcardBack";
          clickclose.className = "hide";
+         mainheader.className="header"
        }
 }); 

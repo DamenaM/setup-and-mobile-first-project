@@ -18,9 +18,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My-Portfolio: <a name="about-project"></a>
+# 📖MY Portfolio - mobile menu: <a name="about-project"></a>
 
-> My-portfolio project is created using HTML and CSS. Here on the project, I prepared portfolio for both mobile and desktop users by relying on Figma Portfolio Template 1. Specifically on this project I have created the desktop version.
+> My-portfolio project is created using HTML and CSS Use JavaScript to manipulate DOM elements. Here on the project, I prepared portfolio for both mobile and desktop users by relying on Figma Portfolio Template 1. Specifically on this project I have created the desktop version.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

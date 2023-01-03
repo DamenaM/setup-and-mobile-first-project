@@ -9,19 +9,22 @@ body {
   margin: 0;
   background-color: hsl(0deg 3% 71% / 10%);
 }
+
 .hide {
-display: none;
+  display: none;
 }
+
 .menuback {
-position: relative;
-background-color: #6070ffdb;
-mix-blend-mode: multiply;
-height: 812px;
-width: 375px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
+  position: relative;
+  background-color: #6070ffdb;
+  mix-blend-mode: multiply;
+  height: 812px;
+  width: 375px;
+  left: 0;
+  top: 0;
+  border-radius: 0;
 }
+
 .header {
   display: flex;
   padding-top: 13px;
@@ -33,6 +36,7 @@ border-radius: 0px;
   left: 0;
   right: 0;
 }
+
 .mylogo {
   font-style: normal;
   font-weight: 700;
@@ -47,42 +51,49 @@ border-radius: 0px;
   letter-spacing: 0;
   text-decoration: none;
 }
-.menu-back {
-display: none;
 
+.menu-back {
+  display: none;
 }
+
 .close-value {
-display: flex;
-margin-left: 311px;
-padding-top: 35px;
+  display: flex;
+  margin-left: 311px;
+  padding-top: 35px;
 }
+
 .newmenuback {
   position: absolute;
   filter: blur(8px);
 }
+
 .filterblur {
-  filter: blur(0px);
+  filter: blur(0);
 }
+
 .menu-content {
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding-top: 50px;
-   margin-left: 28px; 
+  margin-left: 28px;
 }
+
 .menu-content-list {
-font-family: 'Poppins',sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 34px;
-display: flex;
-align-items: center;
-color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  color: #fff;
 }
+
 .blueback {
   position: absolute;
 }
+
 #mylogo-section {
   animation: rotation 2s alternate;
 }
@@ -102,10 +113,6 @@ color: #FFFFFF;
   margin-left: 24px;
   margin-right: 24px;
   gap: 100px;
-}
-.firstcardBack{
-  /* position: absolute;
-  filter: blur(8px); */
 }
 
 .firstcardBack {
