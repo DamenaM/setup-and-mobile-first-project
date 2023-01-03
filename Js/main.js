@@ -1,7 +1,4 @@
 
-
-
-//---------------------------- mange menu----------------------------------
 let clickhum = document.getElementById('logoburger');
 let clickclose = document.getElementById('menubackpop');
 let firstcardBack = document.getElementById('firstcardBackid');
@@ -27,6 +24,6 @@ clickclose.addEventListener("click", function() {
        }else {
          firstcardBack.className = "firstcardBack";
          clickclose.className = "hide";
-         mainheader.className="header"
+         mainheader.className="header";
        }
 }); 
