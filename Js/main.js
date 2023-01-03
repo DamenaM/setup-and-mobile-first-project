@@ -1,17 +1,4 @@
 
-//------------------------ Adding Menu list-------------------------
-
-// const ul =document.querySelector('.menu-nav ul');
-// const li=document.createElement('a');
-// const Profile =document.createElement('a');
-
-// ul.append(li);
-// ul.append(Profile);
-// Profile.innerText=('Profile'); 
-// Profile.classList.add('menu-content-list');
-// li.innerText=('contact'); 
-// li.classList.add('menu-content-list');
-
 
 
 //---------------------------- mange menu----------------------------------
@@ -31,13 +18,7 @@ clickhum.addEventListener("click", function() {
 
 });
 
-// clickclose.addEventListener("click", function() {
-//    if (clickclose.className === "menu-back") {
-//       clickclose.className = "hide";
-//       firstcardBack.className = "firstcardBack";
-//        }
-// }); 
-// --------------------------------------------------------
+
 clickclose.addEventListener("click", function() {
    if (clickclose.className === "menu-back") {
       clickclose.className = "hide";
