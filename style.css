@@ -227,10 +227,6 @@ body {
   margin-bottom: 12px;
 }
 
-.letconnect {
-  margin-bottom: opx;
-}
-
 .connectmywork_01 {
   margin-top: 0;
   font-weight: 500;
@@ -468,7 +464,7 @@ body {
 }
 
 .Prog-Lang.works {
-  display: flexbox;
+  display: flex;
   flex-direction: column;
 }
 
