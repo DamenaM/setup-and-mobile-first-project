@@ -52,6 +52,7 @@ body {
   letter-spacing: 0;
   text-decoration: none;
 }
+
 .menu-back {
   display: none;
 }
@@ -59,18 +60,20 @@ body {
 .xvalue {
   /* margin-top: 30px;
   position: absolute; */
+}
 
-}
 .close-value {
- margin-left: 300px;
-padding-top: 66px;
-font-size: 1.2rem;
-color: white;
+  margin-left: 300px;
+  padding-top: 66px;
+  font-size: 1.2rem;
+  color: white;
 }
+
 .newmenuback {
   position: absolute;
   filter: blur(8px);
 }
+
 .filterblur {
   filter: blur(0);
 }
@@ -96,19 +99,6 @@ color: white;
 
 .blueback {
   position: absolute;
-}
-#introduction {
-  animation: rotation 2s alternate;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .gridcontainer {
@@ -192,6 +182,16 @@ color: white;
 
   100% {
     transform: translateX(0);
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
   }
 }
 
