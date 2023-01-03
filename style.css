@@ -19,7 +19,7 @@ body {
   background-color: #6070ffdb;
   mix-blend-mode: multiply;
   height: 812px;
-  width: 375px;
+  width: 100%;
   left: 0;
   top: 0;
   border-radius: 0;
@@ -28,6 +28,7 @@ body {
 .header {
   display: flex;
   padding-top: 13px;
+  padding-right: 24px;
   align-items: center;
   background-color: #ffff;
   justify-content: space-between;
@@ -51,26 +52,25 @@ body {
   letter-spacing: 0;
   text-decoration: none;
 }
-
 .menu-back {
   display: none;
 }
 
 .xvalue {
-  margin-top: 30px;
-}
+  /* margin-top: 30px;
+  position: absolute; */
 
+}
 .close-value {
-  display: flex;
-  margin-left: 288px;
-  padding-top: 35px;
+ margin-left: 300px;
+padding-top: 66px;
+font-size: 1.2rem;
+color: white;
 }
-
 .newmenuback {
   position: absolute;
   filter: blur(8px);
 }
-
 .filterblur {
   filter: blur(0);
 }
@@ -79,7 +79,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-top: 50px;
   margin-left: 28px;
 }
 
@@ -92,13 +91,13 @@ body {
   display: flex;
   align-items: center;
   color: #fff;
+  text-decoration: none;
 }
 
 .blueback {
   position: absolute;
 }
-
-#mylogo-section {
+#introduction {
   animation: rotation 2s alternate;
 }
 
@@ -303,7 +302,7 @@ body {
 }
 
 .AboutcardBack {
-  margin-top: 24px;
+  margin-top: 59px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -567,6 +566,7 @@ body {
 }
 
 .tonic4 {
+  margin-top: 24px;
   width: 327px;
   height: 101px;
   font-family: 'Poppins', sans-serif;
